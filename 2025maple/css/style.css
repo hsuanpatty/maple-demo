@@ -174,11 +174,11 @@ footer {
 }
 
 .pb-100 {
-	padding-bottom: 100px !important;
+	padding-bottom: 150px !important;
 }
 
 .pb-150 {
-	padding-bottom: 150px !important;
+	padding-bottom: 130px !important;
 }
 
 .pb-200 {
@@ -1087,8 +1087,10 @@ section:nth-last-child {
 
 .title_t a >.subtitle:hover{
   font: 800 18px 微軟正黑體;
+  line-height: 1.5;
   color: #5c2d0c;
 }
+
 
 .title_t li h5 {
   display: inline-block;
@@ -1500,12 +1502,16 @@ section:nth-last-child {
 
   .hot-box-title {
     padding: 3px 60px 3px 30px;
-    margin: 5px 40px 15px;
+    margin: 15px 40px;
   }
 
   .details-tab {
     padding: 0.8rem 1rem;
     width: 100px;
+  }
+
+  .europe-box-img img {
+    width: 80%;
   }
 }
 
@@ -1625,7 +1631,8 @@ section:nth-last-child {
   }
 
   .details-tab {
-    width: 140px;
+    width: 100px;
+    font-size: 18px;
   }
 
   .pb-150 {
@@ -1639,6 +1646,10 @@ section:nth-last-child {
 
   .px-30 {
     padding: 0 30px;
+  }
+
+  .europe-box-img img {
+    width: 90%;
   }
 }
 
@@ -1773,8 +1784,9 @@ section:nth-last-child {
   }
 
   .details-tab {
-    width: 120px;
-    padding: 0.5rem 0;
+    font-size: 20px;
+    width: 88px;
+    padding: 0.5rem 0px;
   }
 
   .title_t a >.subtitle {
@@ -1804,7 +1816,7 @@ section:nth-last-child {
   }
 
   .title-img-2 {
-    width: 65%;
+    width: 52%;
   }
 
   .pb-50 {
@@ -1817,6 +1829,15 @@ section:nth-last-child {
 
   .japan-box-content, .box-text {
     padding: 10px 0 35px;
+  }
+
+  .JQellipsis {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+   
   }
 }
 
@@ -1832,20 +1853,26 @@ section:nth-last-child {
 
 
 @media (max-width: 375.98px) { 
-  .china-box-1 .china-box-text,
-  .china-box-3 .china-box-text{
+  .china-box-1 .china-box-text{
     position: absolute;
     left: 50%;
     transform: translate(-50%, 50%);
   }
 
-  .china-box-1 .china-box-content{
+  .china-box-3 .china-box-text{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 58%);
+  }
+
+  .china-box-1 .china-box-content,
+  .china-box-3 .china-box-content{
     padding: 30px 20px 25px 25px;
   }
-  
-  .china-box-3 .china-box-content{
-    padding: 28px 15px 25px 18px;
-  }  
+
+  .china-box-content h4{
+    font-size: 10px;
+  }
 
   .price-txt {
     padding-top: 0;
@@ -1861,6 +1888,29 @@ section:nth-last-child {
 
   .details-content {
     padding: 0;
+  }
+
+  .details-tab {
+    font-size: 22px;
+    width: 120px;
+    padding: 0.5rem 0;
+  }
+
+  .carousel__item {
+    height: 13rem;
+    width: 21rem;
+  }
+
+  .carousel__btns {
+    transform: translate(-50%, 8rem);
+  }
+
+  .pb-100 {
+    padding-bottom: 60px !important;
+  }
+
+  .japan-box-content, .box-text {
+    padding: 10px 0 10px;
   }
   
 }
