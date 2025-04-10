@@ -1082,7 +1082,6 @@ section:nth-last-child {
   color: #282828;
   line-height: 1.5;
   text-align: left;
-  margin-bottom: 2px;
 }
 
 .title_t a >.subtitle:hover{
