@@ -1509,6 +1509,10 @@ section:nth-last-child {
     padding: 0.8rem 1rem;
     width: 100px;
   }
+
+  .europe-box-img img {
+    width: 80%;
+  }
 }
 
  @media (max-width: 767.98px) { 
@@ -1642,6 +1646,10 @@ section:nth-last-child {
 
   .px-30 {
     padding: 0 30px;
+  }
+
+  .europe-box-img img {
+    width: 90%;
   }
 }
 
