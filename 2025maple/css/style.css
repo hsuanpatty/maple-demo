@@ -1759,6 +1759,7 @@ section:nth-last-child {
 
   .china-box-content h4 {
     white-space: nowrap;
+    letter-spacing: 0.5px;
   }
 
   .china-button {
@@ -1821,6 +1822,10 @@ section:nth-last-child {
 
   .pb-50 {
     padding-bottom: 30px !important;
+  }
+
+  .pb-100 {
+    padding-bottom: 50px !important;
   }
 
   .pb-300 {
