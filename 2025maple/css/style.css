@@ -1902,8 +1902,9 @@ section:nth-last-child {
 
   .details-tab {
     font-size: 22px;
-    width: 120px;
+    width: 150px;
     padding: 0.5rem 0;
+    margin: 10px 10px;
   }
 
   .carousel__item {
