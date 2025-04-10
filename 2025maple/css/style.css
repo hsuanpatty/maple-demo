@@ -1784,9 +1784,9 @@ section:nth-last-child {
   }
 
   .details-tab {
-    font-size: 22px;
-    width: 120px;
-    padding: 0.5rem 0;
+    font-size: 20px;
+    width: 88px;
+    padding: 0.5rem 0px;
   }
 
   .title_t a >.subtitle {
@@ -1873,6 +1873,12 @@ section:nth-last-child {
 
   .details-content {
     padding: 0;
+  }
+
+  .details-tab {
+    font-size: 22px;
+    width: 120px;
+    padding: 0.5rem 0;
   }
   
 }
