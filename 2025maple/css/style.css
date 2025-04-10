@@ -1551,7 +1551,12 @@ section:nth-last-child {
 
   .tab-content p {
     letter-spacing: 0.1rem;
-    padding: 0;
+    padding: 0 15px;
+  }
+
+  .tab-content h4,
+  .title2 {
+    padding: 0 15px;
   }
 
   .japan-box-content, .box-text {
@@ -1842,7 +1847,6 @@ section:nth-last-child {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     white-space: normal;
-   
   }
 }
 
