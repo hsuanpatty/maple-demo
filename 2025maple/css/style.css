@@ -1636,8 +1636,9 @@ section:nth-last-child {
   }
 
   .details-tab {
-    width: 100px;
+    width: 90px;
     font-size: 18px;
+    margin: 10px 4px;
   }
 
   .pb-150 {
@@ -1791,9 +1792,8 @@ section:nth-last-child {
 
   .details-tab {
     font-size: 20px;
-    width: 88px;
+    width: 85px;
     padding: 0.5rem 0px;
-    margin: 10px 0.5px;
   }
 
   .title_t a >.subtitle {
