@@ -1082,12 +1082,15 @@ section:nth-last-child {
   color: #282828;
   line-height: 1.5;
   text-align: left;
+  margin-bottom: 2px;
 }
 
 .title_t a >.subtitle:hover{
   font: 800 18px 微軟正黑體;
+  line-height: 1.5;
   color: #5c2d0c;
 }
+
 
 .title_t li h5 {
   display: inline-block;
