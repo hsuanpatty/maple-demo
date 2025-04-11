@@ -1846,8 +1846,14 @@ section:nth-last-child {
     padding-bottom: 220px !important;
   }
 
-  .japan-box-content, .box-text {
-    padding: 18px 0 2px;
+  .sec2 .box-text {
+    padding: 10px 0 20px;
+    width: 90%;
+  }
+
+  .sec3 .box-text {
+    padding: 10px 0 0;
+    width: 77%;
   }
 
   .JQellipsis {
@@ -1936,17 +1942,6 @@ section:nth-last-child {
   .pb-100 {
     padding-bottom: 60px !important;
   }
-
- .sec2 .box-text {
-    padding: 10px 0 20px;
-    width: 90%;
-  }
-
-  .sec3 .box-text {
-    padding: 10px 0 0;
-    width: 77%;
-  }
-
 
   .py-3 {
     padding: 0;
