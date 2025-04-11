@@ -1847,7 +1847,7 @@ section:nth-last-child {
   }
 
   .japan-box-content, .box-text {
-    padding: 10px 0 2px;
+    padding: 18px 0 2px;
   }
 
   .JQellipsis {
@@ -1937,10 +1937,16 @@ section:nth-last-child {
     padding-bottom: 60px !important;
   }
 
-  .japan-box-content, .box-text {
+ .sec2 .box-text {
+    padding: 10px 0 20px;
+    width: 90%;
+  }
+
+  .sec3 .box-text {
     padding: 10px 0 0;
     width: 77%;
   }
+
 
   .py-3 {
     padding: 0;
