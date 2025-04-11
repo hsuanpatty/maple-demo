@@ -1792,8 +1792,9 @@ section:nth-last-child {
 
   .details-tab {
     font-size: 20px;
-    width: 85px;
+    width: 80px;
     padding: 0.5rem 0px;
+    margin: 10px 2px;
   }
 
   .title_t a >.subtitle {
