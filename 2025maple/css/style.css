@@ -1636,9 +1636,10 @@ section:nth-last-child {
   }
 
   .details-tab {
-    width: 90px;
+    width: 60px;
     font-size: 18px;
-    margin: 10px 4px;
+    padding: 0.8rem 2rem;
+    margin: 10px 3px;
   }
 
   .pb-150 {
