@@ -931,7 +931,7 @@ section:nth-last-child {
 
 .title4 span {
   display: block;
-  font-size: 30px;
+  font-size: 29px;
   color: #76523e;
   font-family: "Noto Serif TC", "Newsreader", serif;
   position: relative;
@@ -1326,7 +1326,7 @@ section:nth-last-child {
   }
 
   .title4 span {
-    font-size: 28px;
+    font-size: 27px;
     padding-left: 10px;
   }
 
