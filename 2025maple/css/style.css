@@ -1860,7 +1860,7 @@ section:nth-last-child {
   .china-box-1 .china-box-content{
     padding: 30px 20px 25px 25px;
   }
-  
+
   .china-box-3 .china-box-content{
     padding: 28px 15px 25px 18px;
   }  
@@ -1938,6 +1938,9 @@ section:nth-last-child {
     transform: translate(-50%, 8rem);
   }
   
+  .japan-box-content, .box-text {
+    padding: 10px 0 5px;
+  }
 }
 
 /*  footer  */
