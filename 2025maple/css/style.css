@@ -1804,11 +1804,15 @@ section:nth-last-child {
 
   .price-txt { 
     font-size: 24px;
-    padding-top: 10px;
+    padding-top: 2px;
   }
 
   .price-txt span {
     font-size: 18px;
+  }
+
+  .details-content{
+    padding: 1rem 0 0.5rem;
   }
 
   .hot-box-title p {
@@ -1817,7 +1821,7 @@ section:nth-last-child {
 
   .hot-box-title {
     padding: 3px 50px 3px 20px;
-    margin: 30px 25px 5px;
+    margin: 12px 25px 5px;
   }
 
   .title-img{
@@ -1857,7 +1861,7 @@ section:nth-last-child {
   }
 
   .referral li {
-    padding: 10px 25px;
+    padding: 10px 25px 6px;
   }
 
 }
