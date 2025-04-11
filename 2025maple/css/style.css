@@ -1924,6 +1924,15 @@ section:nth-last-child {
   .japan-box-content, .box-text {
     padding: 10px 0 10px;
   }
+
+  .carousel__item {
+    height: 13rem;
+    width: 20rem;
+  }
+
+  .carousel__btns {
+    transform: translate(-50%, 8rem);
+  }
   
 }
 
