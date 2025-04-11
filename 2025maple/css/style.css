@@ -1817,7 +1817,7 @@ section:nth-last-child {
 
   .hot-box-title {
     padding: 3px 50px 3px 20px;
-    margin: 30px 40px 15px;
+    margin: 30px 25px 5px;
   }
 
   .title-img{
@@ -1855,6 +1855,11 @@ section:nth-last-child {
   .usa-box-text {
     width: 85%;
   }
+
+  .referral li {
+    padding: 10px 25px;
+  }
+
 }
 
 @media (max-width: 500.98px) { 
@@ -1892,10 +1897,6 @@ section:nth-last-child {
 
   .price-txt {
     padding-top: 0;
-  }
-
-  .referral li {
-    margin: 20px 10px;
   }
 
   .hot-box-title{
@@ -2097,7 +2098,8 @@ background-color: #5e1f0a;
       font-size: 12px;
   }
   .footer-left {
-      width: 40%;
+      width: 100%;
+      text-align: center;
   }
   .footer-right {
       width: 60%;
@@ -2117,9 +2119,8 @@ background-color: #5e1f0a;
     .contact-box {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     width: 50%;
-    align-items: flex-start;
     padding: 10px 0;
   }
   .contact-box p span {
@@ -2138,11 +2139,13 @@ background-color: #5e1f0a;
       flex-direction: column;
       padding: 10% 0 5%;
   }
-  .footer-left {
-      width: 100%;
-  }
+
   .footer-line {
       display: none;
+  }
+
+  .footer-left {
+    text-align: left;
   }
   .footer-right {
       margin: 10px 0;
