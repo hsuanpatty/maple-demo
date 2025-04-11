@@ -1486,7 +1486,7 @@ section:nth-last-child {
   }
 
   .usa-box-slider {
-    min-height: 22vh;
+    min-height: 24vh;
     padding-top: 40px;
   }
 
@@ -1663,6 +1663,11 @@ section:nth-last-child {
 
   .japan-box-img {
     padding-top: 3px;
+  }
+
+  .usa-box-slider {
+    min-height: 35vh;
+    padding-top: 40px;
   }
   
 }
