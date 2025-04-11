@@ -1487,6 +1487,7 @@ section:nth-last-child {
 
   .usa-box-slider {
     min-height: 22vh;
+    padding-top: 40px;
   }
 
   .general-container {
