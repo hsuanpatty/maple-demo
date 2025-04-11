@@ -1850,6 +1850,10 @@ section:nth-last-child {
     -webkit-box-orient: vertical;
     white-space: normal;
   }
+
+  .usa-box-text {
+    width: 85%;
+  }
 }
 
 @media (max-width: 500.98px) { 
