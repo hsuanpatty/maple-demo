@@ -1083,6 +1083,7 @@ section:nth-last-child {
   line-height: 1.5;
   letter-spacing: 0.02rem;
   text-align: left;
+  margin-top: 6px;
   margin-bottom: 2px;
 }
 
